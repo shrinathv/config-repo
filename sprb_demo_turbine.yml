@@ -10,7 +10,10 @@ logging:
     com.netflix.discovery: 'OFF'
 
 server:
-  port: 8989
+  port: 8988
+
+management:
+  port: 8991
 
 eureka:  
   password: password
