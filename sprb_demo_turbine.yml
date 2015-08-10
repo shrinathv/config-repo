@@ -7,7 +7,7 @@ logging:
     ROOT: INFO
     org.springframework.web: INFO
     org.springframework.integration: INFO
-    com.netflix.discovery: 'OFF'
+    com.netflix.discovery: INFO
 
 server:
   port: 8989
