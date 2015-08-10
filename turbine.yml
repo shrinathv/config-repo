@@ -1,6 +1,6 @@
 spring:
   application:
-    name: sprb_demo_turbine
+    name: turbine
 
 logging:
   level:
