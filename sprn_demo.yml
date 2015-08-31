@@ -25,7 +25,7 @@ eureka:
   password: password
   client:
     serviceUrl:
-      defaultZone: http://user:${eureka.password}@localhost:8761/eureka/
+      defaultZone: http://user:${eureka.password}@sprb-demo-eureka.ula.app.cloud.comcast.net/eureka/
   instance:
     leaseRenewalIntervalInSeconds: 10
     metadataMap:
