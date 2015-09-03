@@ -4,9 +4,7 @@ spring:
 
 eureka:
   client:
-    registerWithEureka: true
+    registerWithEureka: false
     fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://sprb-eureka.ula.app.cloud.comcast.net/eureka/
   server:
     waitTimeInMsWhenSyncEmpty: 0
