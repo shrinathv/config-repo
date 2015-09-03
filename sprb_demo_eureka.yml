@@ -1,12 +1,10 @@
 spring:
   application:
-    name: sprb_demo_eureka
-server:
-  port: 8761
+    name: sprb-eureka
 
 eureka:
   client:
-    registerWithEureka: false
+    registerWithEureka: true
     fetchRegistry: false
   server:
     waitTimeInMsWhenSyncEmpty: 0
