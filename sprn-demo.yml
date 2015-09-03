@@ -1,6 +1,6 @@
 spring:
   application:
-    name: sprn_demo
+    name: sprn-demo
   rabbitmq:
     addresses: ${vcap.services.${PREFIX:}rabbitmq.credentials.uri:amqp://${RABBITMQ_HOST:localhost}:${RABBITMQ_PORT:5672}}
   
@@ -25,7 +25,7 @@ eureka:
   password: password
   client:
     serviceUrl:
-      defaultZone: http://sprb-demo-eureka.ula.app.cloud.comcast.net/eureka/
+      defaultZone: http://sprb-eureka.ula.app.cloud.comcast.net/eureka/
   instance:
     leaseRenewalIntervalInSeconds: 10
     metadataMap:
